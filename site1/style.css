@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.top h1 {
+    text-align: center;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #000;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(161,27,173,0.9231734930300245) 27%, rgba(151,26,183,1) 36%, rgba(186,52,246,1) 44%, rgba(131,59,228,1) 58%, rgba(153,91,241,1) 77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-image: url(fundo.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.b {
+    border-radius:50px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px; 
+	font-weight:bold;
+	padding:50px 10px;
+	text-decoration:none;
+	text-shadow:2px 2px 2px #9752cc;
+}
+
+.b:active {
+    position:relative;
+	top:1px;
+}
+
+a {
+    width: 200px;
+    border: 0.1px solid #000;
+    box-shadow:inset 4px 2px 9px -2px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	border-radius:50px;
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(255, 255, 255);
+	font-size: 10px; 
+	padding:7px 5px;
+	text-decoration:none;
+	text-shadow:2px 2px 2px #000000;
+}
+
+.b:hover a {
+    background:linear-gradient(to bottom, #73508f91 5%, #680fad85 100%);
+}
+
+.b {
+    margin-left: 20px;
+    text-align: center;
+}
+.pe {
+    color: #000000ab;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 210px;
+}
+
+.up {
+    margin-left: 60px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: #d091ee;
+}
+
+.para {
+    background-color: #debdfa56;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+    color:#000000;
+}
+
+.box {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ind {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(222, 182, 224, 0.356) ;
+}
+
+.botao {
+    font-size: 15px;
+    background-color: rgba(216, 180, 230, 0.644);
+    font-family: 'Orbitron', sans-serif;
+    border: 0px;
+}
+
+.indi {
+    font-size: 10px;
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid 10px;
+    background: rgba(137, 43, 226, 0.116);
+}
